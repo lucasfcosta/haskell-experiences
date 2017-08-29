@@ -13,8 +13,8 @@ five = 10 `div` 2
 -- Details: In Haskell the `if`s are expressions, this means they always return a value.
 -- 			Due to this every `if` statement requires an `else`.
 doubleSmallNumber x = if x > 100
-	then x
-	else x * 2
+  then x
+  else x * 2
 
 -- Nice Thing
 -- Details: * In haskell `'` is a valid character to use in a function name.
